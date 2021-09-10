@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-air-base",
+  "version": "0.1.0",
+  "description": "Airbnb base style guide without semicolons",
+  "main": "index.js",
+  "scripts": {
+    "postpublish": "git push --all origin && git push origin --tags"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
+  },
+  "repository": "github:bouvens/eslint-config-air-base",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Alexander Demin <bouvens@gmail.com> (https://bouvens.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouvens/eslint-config-air-base/issues"
+  },
+  "homepage": "https://github.com/bouvens/eslint-config-air-base#readme"
+}
