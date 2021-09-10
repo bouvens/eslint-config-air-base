@@ -1,5 +1,8 @@
 module.exports = {
   extends: 'airbnb-base',
+  env: {
+    browser: true,
+  },
   rules: {
     'complexity': ['warn', 12],
     'consistent-this': ['warn', 'that'],
