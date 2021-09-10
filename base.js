@@ -1,4 +1,7 @@
 module.exports = {
+  env: {
+    browser: true,
+  },
   rules: {
     'complexity': ['warn', 12],
     'consistent-this': ['warn', 'that'],
