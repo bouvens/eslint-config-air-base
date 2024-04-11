@@ -14,5 +14,6 @@ module.exports = {
     'object-curly-newline': ['off'],
     'semi': ['warn', 'never'],
     'valid-jsdoc': ['error'],
+    'import/prefer-default-export': ['off'],
   },
 }
